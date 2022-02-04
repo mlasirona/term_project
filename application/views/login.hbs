@@ -1,0 +1,17 @@
+<head>
+    <script defer type="text/javascript" src="./public/js/validation.js"></script>
+</head>
+
+<body>
+    <form id="login" method="POST" action="/users/login" enctype="application/x-www-form-urlencoded">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>

@@ -1,0 +1,46 @@
+header {
+    background-color: #001233;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-top: 5rem;
+    background-color: #001845;
+    border-radius: 2rem;
+    padding: .5rem;
+    margin-bottom: 5rem;
+}
+
+input {
+    border-color: #023e7d;
+    padding: .25rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type=submit] {
+    color: black;
+}
+
+input[type=file] {
+    color: black;
+}
+
+body {
+    display: grid;
+    grid-gap: .5rem;
+    font-family: "Lucida Console", "Monaco", monospace;
+    color: white;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+    text-align: center;
+}
+
+#banner {
+    padding: 1rem;
+    text-align: center;
+    background: #001233;
+    border: .15rem solid white;
+    color: white;
+    margin-bottom: .5rem;
+}

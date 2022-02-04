@@ -1,0 +1,22 @@
+#image-post-image {
+    padding-top: 0.5rem;
+}
+
+#info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+#info div {
+    text-align: center;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border-style: solid;
+    border-color: white;
+    background: black;
+}

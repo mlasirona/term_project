@@ -1,0 +1,36 @@
+<head>
+    <script defer type="text/javascript" src="./public/js/validation.js"></script>
+</head>
+
+<body>
+    <form id="registration" method="POST" action="/users/register"
+    enctype="application/x-www-form-urlencoded"> <!-- onsubmit="event.preventDefault(); validate();" -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <label for=" email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label for="password confirm">Re-enter Password:</label>
+        <input type="password" id="password_confirm" name="password_confirm" required>
+        <br>
+
+        <input type="checkbox" id="age" name="age" required>
+        <label for="age ">I am 13+ years old.</label>
+        <br>
+
+        <input type="checkbox" id="tos" name="tos" required>
+        <a termcond="----">
+            <label for="tos">Agree to Terms of Service and Privacy rules</label>
+        </a>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>

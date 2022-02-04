@@ -1,0 +1,28 @@
+div.card {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #001233;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: white;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    float: left;
+    width: 23%;
+    height: auto;
+}
+
+div.card-body {
+    padding: 0.25rem;
+}
+
+#flash-message {
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+}
+
+#flash-message div {
+    text-align: center;
+}
